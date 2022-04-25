@@ -8,11 +8,11 @@ public class HelloWorldController {
 
     @RequestMapping
     public String helloWorld() {
-        return "Hello World from MonstarLab";
+        return "Hello World from Pham Van Hieu";
     }
 
     @RequestMapping("/goodbye")
     public String goodbye() {
-        return "Goodbye from MonstarLab";
+        return "Goodbye from Pham Van Hieu";
     }
 }
